@@ -5,4 +5,5 @@ export const sum = (a: number, b: number) => {
   return a + b;
 };
 
+// just comment
 export const greet = (name:string)=>`Hello,${name}!`
