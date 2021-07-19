@@ -6,4 +6,4 @@ export const sum = (a: number, b: number) => {
 };
 
 // just comment
-export const greet = (name:string)=>`Hello,${name}!`
+export const greet = (name: string) => `Hello,${name}!`;
