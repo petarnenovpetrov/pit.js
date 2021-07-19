@@ -31,7 +31,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "pit.js",
+  "name": "@petarnenov/pit.js",
   "author": "Petar Nenov",
   "module": "dist/pit.js.esm.js",
   "size-limit": [
