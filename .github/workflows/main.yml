@@ -10,7 +10,7 @@ jobs:
         node: ['12.x', '14.x']
         os: [ubuntu-latest, windows-latest, macOS-latest]
 
-    steps:
+    steps:npm i @petarnenov/pit.js
       - name: Checkout repo
         uses: actions/checkout@v2
 
@@ -30,3 +30,6 @@ jobs:
 
       - name: Build
         run: yarn build
+
+      - name: Publish
+        run: npm publish --access public

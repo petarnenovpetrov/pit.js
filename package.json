@@ -46,6 +46,7 @@
   ],
   "devDependencies": {
     "@size-limit/preset-small-lib": "^5.0.1",
+    "@types/pixi.js": "^4.8.8",
     "husky": "^7.0.1",
     "size-limit": "^5.0.1",
     "tsdx": "^0.14.1",

@@ -1,9 +1,5 @@
-export const sum = (a: number, b: number) => {
-  if ('development' === process.env.NODE_ENV) {
-    console.log('boop');
-  }
-  return a + b;
-};
+import { Scroll, ScrollConfig, ScrollElement } from './Scroll';
 
-// just comment
-export const greet = (name: string) => `Hello,${name}!`;
+Object.assign(PIXI.extras, { Scroll });
+
+export { Scroll, ScrollConfig, ScrollElement };

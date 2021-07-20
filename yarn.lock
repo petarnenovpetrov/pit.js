@@ -1330,6 +1330,11 @@
   "resolved" "https://registry.npmjs.org/@types/parse-json/-/parse-json-4.0.0.tgz"
   "version" "4.0.0"
 
+"@types/pixi.js@^4.8.8":
+  "integrity" "sha512-5wmLnmL3foK/rqYMrrEM/3DxEwvwxJaP73RyqY8aMqq8zUm6CBlmc+12RIBH6iR/RHqU76XL238vWWJV1IN/zw=="
+  "resolved" "https://registry.npmjs.org/@types/pixi.js/-/pixi.js-4.8.8.tgz"
+  "version" "4.8.8"
+
 "@types/prettier@^1.19.0":
   "integrity" "sha512-5qOlnZscTn4xxM5MeGXAMOsIOIKIbh9e85zJWfBRVPlRMEVawzoPhINYbRGkBZCI8LxvBe7tJCdWiarA99OZfQ=="
   "resolved" "https://registry.npmjs.org/@types/prettier/-/prettier-1.19.1.tgz"
