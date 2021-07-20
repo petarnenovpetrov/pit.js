@@ -10,7 +10,7 @@ jobs:
         node: ['12.x', '14.x']
         os: [ubuntu-latest, windows-latest, macOS-latest]
 
-    steps:npm i @petarnenov/pit.js
+    steps:
       - name: Checkout repo
         uses: actions/checkout@v2
 
