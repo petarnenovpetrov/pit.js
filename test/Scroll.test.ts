@@ -38,7 +38,7 @@ describe('Scroll class test', () => {
 
   // Simple test ...
   it('Should instantiate Scroll', () => {
-    const scroll = new Scroll<ScrollElementData>();
+    const scroll = new Scroll<ScrollElement<ScrollElementData>>();
     expect(scroll).toBeInstanceOf(Scroll);
     scroll.init(testData.element, testData.config);
     scroll.element.setData(testData.data);
