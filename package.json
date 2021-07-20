@@ -25,6 +25,11 @@
       "pre-commit": "tsdx lint"
     }
   },
+  "jest": {
+    "setupFiles": [
+      "jest-canvas-mock"
+    ]
+  },
   "prettier": {
     "printWidth": 80,
     "semi": true,
@@ -48,6 +53,8 @@
     "@size-limit/preset-small-lib": "^5.0.1",
     "@types/pixi.js": "^4.8.8",
     "husky": "^7.0.1",
+    "jest-canvas-mock": "^2.3.1",
+    "pixi.js": "^4.8.8",
     "size-limit": "^5.0.1",
     "tsdx": "^0.14.1",
     "tslib": "^2.3.0",
