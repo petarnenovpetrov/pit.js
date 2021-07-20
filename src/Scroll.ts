@@ -16,5 +16,3 @@ export class Scroll<T> {
     this._config = config;
   }
 }
-
-// useless comment
