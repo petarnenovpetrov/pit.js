@@ -15,4 +15,7 @@ export class Scroll<T> {
     this._element = element;
     this._config = config;
   }
+  get element() {
+    return this._element;
+  }
 }
