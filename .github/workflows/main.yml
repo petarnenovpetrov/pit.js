@@ -32,4 +32,7 @@ jobs:
         run: yarn build
 
       - name: Publish
-        run: npm publish --access public
+        run: npm publish 
+        with:
+          github_token: ${{ secrets.NPM_TOCKEN }}
+      
