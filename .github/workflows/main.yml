@@ -11,6 +11,12 @@ jobs:
         os: [ubuntu-latest, windows-latest, macOS-latest]
 
     steps:
+      - name: Use NPM Token with organization read access
+        uses: dkershner6/use-npm-token-action@v1
+        with:
+          token: "${{ secrets.NPM_TOKEN }}"
+          workspace: ./node
+
       - name: Checkout repo
         uses: actions/checkout@v2
 
